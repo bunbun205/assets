@@ -157,12 +157,17 @@
         "blockId": 7957,
         "x": -420,
         "y": 260
+      },
+      {
+        "blockId": 27641,
+        "x": 260,
+        "y": 640
       }
     ],
     "frames": [],
-    "x": 648.0165208714417,
-    "y": 38.58286531743359,
-    "zoom": 0.7848865253776444
+    "x": 831.3451698002445,
+    "y": 19.66772175215131,
+    "zoom": 0.6388535740207361
   },
   "customType": "BABYLON.NodeMaterial",
   "outputNodes": [
@@ -368,7 +373,7 @@
         {
           "name": "a",
           "inputName": "a",
-          "targetBlockId": 7879,
+          "targetBlockId": 27641,
           "targetConnectionName": "output",
           "isExposedOnFrame": true,
           "exposedPortPosition": -1
@@ -845,6 +850,38 @@
           "inputName": "right",
           "targetBlockId": 317,
           "targetConnectionName": "z",
+          "isExposedOnFrame": true,
+          "exposedPortPosition": -1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.MultiplyBlock",
+      "id": 27641,
+      "name": "Multiply",
+      "comments": "",
+      "visibleInInspector": false,
+      "visibleOnFrame": false,
+      "target": 4,
+      "inputs": [
+        {
+          "name": "left",
+          "inputName": "left",
+          "targetBlockId": 7879,
+          "targetConnectionName": "output",
+          "isExposedOnFrame": true,
+          "exposedPortPosition": -1
+        },
+        {
+          "name": "right",
+          "inputName": "right",
+          "targetBlockId": 153,
+          "targetConnectionName": "output",
           "isExposedOnFrame": true,
           "exposedPortPosition": -1
         }
