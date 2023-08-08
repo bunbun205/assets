@@ -225,9 +225,9 @@
       }
     ],
     "frames": [],
-    "x": 49.95448850154344,
-    "y": 25.382952870825264,
-    "zoom": 0.19185922662090085
+    "x": -2048.7679811747716,
+    "y": -1910.897915350663,
+    "zoom": 1.3852748922625822
   },
   "customType": "BABYLON.NodeMaterial",
   "outputNodes": [
@@ -887,7 +887,7 @@
       "convertToGammaSpace": false,
       "convertToLinearSpace": false,
       "valueType": "number",
-      "value": 0.25
+      "value": 0.55
     },
     {
       "customType": "BABYLON.MultiplyBlock",
@@ -979,7 +979,7 @@
       "convertToGammaSpace": false,
       "convertToLinearSpace": false,
       "valueType": "number",
-      "value": 0.3
+      "value": 0.4
     },
     {
       "customType": "BABYLON.MultiplyBlock",
